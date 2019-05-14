@@ -1,7 +1,7 @@
 function resize_niftis(folder, Voxdim)
 % Function calls resize_img on all .nii files in the folder specified by
 % user and resizes images according to dimensions provided by Voxdim input
-% resize_img taken from here: http://www0.cs.ucl.ac.uk/staff/gridgway/vbm/resize_img.m
+% resize_img available here: http://www0.cs.ucl.ac.uk/staff/gridgway/vbm/resize_img.m
 % INPUT:
 % folder    = string containing absolute path to folder consisting of images
 %             to be resized - make sure only images to be resized are 
