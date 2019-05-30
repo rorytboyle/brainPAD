@@ -44,7 +44,7 @@ end
 %% 2. Load niftis and get filenames
 % load niftis
 cd(nifti_folder)
-file_list = dir('*.nii');
+file_list = dir('r*.nii');
 cd(saveto)
 
 % check niftis contains niftis images 
