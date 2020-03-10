@@ -1,8 +1,8 @@
 # brainPAD
 Predict brain age and calculate brain-predicted age difference scores from T1 MRIs
 
+If you use this code, please cite: https://doi.org/10.1007/s11682-020-00260-3.
    
-
 Relevant parameters (e.g. beta weights, training set intercept, training set slope, and training set voxelwise data - for z-scoring) are available for request from Zenodo through the following link: https://doi.org/10.5281/zenodo.2819646
 
 Steps:
