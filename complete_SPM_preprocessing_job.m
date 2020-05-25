@@ -4,11 +4,11 @@
 % cfg_basicio BasicIO - Unknown
 %-----------------------------------------------------------------------
 %%
-matlabbatch{1}.spm.spatial.preproc.channel.vols = { % ADD A STRING WITH FULL PATH TO EACH SCAN TO BE PREPROCESSED HERE, FOLLOWED BY ", 1"
+matlabbatch{1}.spm.spatial.preproc.channel.vols = { % ADD A STRING WITH FULL PATH TO EACH SCAN TO BE PREPROCESSED HERE, FOLLOWED BY ",1"
                                                     % E.G. IN THIS FORMAT:
-                                                    % 'C:\MRI_data\T1s_to_preprocess\T1_participant1.nii, 1'
-                                                    % 'C:\MRI_data\T1s_to_preprocess\T1_participant2.nii, 1'
-                                                    % 'C:\MRI_data\T1s_to_preprocess\T1_participant3.nii, 1'
+                                                    % 'C:\MRI_data\T1s_to_preprocess\T1_participant1.nii,1'
+                                                    % 'C:\MRI_data\T1s_to_preprocess\T1_participant2.nii,1'
+                                                    % 'C:\MRI_data\T1s_to_preprocess\T1_participant3.nii,1'
                                                    };
 %%
 matlabbatch{1}.spm.spatial.preproc.channel.biasreg = 0.001;
