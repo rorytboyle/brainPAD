@@ -84,3 +84,5 @@ matlabbatch{3}.spm.tools.dartel.mni_norm.bb = [NaN NaN NaN
                                                NaN NaN NaN];
 matlabbatch{3}.spm.tools.dartel.mni_norm.preserve = 1;
 matlabbatch{3}.spm.tools.dartel.mni_norm.fwhm = [4 4 4];
+
+spm_jobman('run',matlabbatch);
