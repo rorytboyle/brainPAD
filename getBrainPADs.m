@@ -21,15 +21,15 @@ function [brainPAD, subid, prediction] = getBrainPADs(niftiFolder, saveto,...
 %                  specified by saveto.
 % betas          = n (features) x 4 array containing avg beta weights in
 %                  col 1 and MNI coords of voxel location in cols 2 (x),
-%                  3 (y), 4 (z).
+%                  3 (y), 4 (z). (averaged_betas.mat from Zenodo)
 % test_outcome   = array file of size m (participants) x 1 containing the 
 %                  chronological age for each subject
 % test_subid     = subid for each participants
 % training_data  = array of size m (participants) x n (features) containing 
 %                  data on which model was trained. Used here to z-score
-%                  test_data
-% int            = intercept of training set
-% slope          = slope of training set
+%                  test_data (voxelwise_data.mat from Zenodo)
+% int            = intercept of training set (betaInt.mat from Zenodo)
+% slope          = slope of training set (training_slope.mat from Zenodo)
 
 % SPM must be installed and following functions must be located in path:
 % 1) resize_niftis.m
