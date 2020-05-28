@@ -24,7 +24,18 @@ Steps:
     6) Download model parameters from Zenodo https://doi.org/10.5281/zenodo.2819646 and load into MATLAB workspace
     
     7) Run getBrainPADs.m
-
+       
+      [brainPAD, subid, prediction] = getBrainPADs(niftiFolder, saveto,...
+      betas, test_outcome, test_subid, training_data, int, slope)
+         
+         niftiFolder = path to folder containing nifti images
+         saveto = output folder where data should be saved
+         betas = averaged_betas.mat
+         test_outcome = chronological ages for each scan (1 * m array)
+         test_subid = subids for each scan (1 * m cell)
+         training_data = voxelwise_data.mat
+         int = betaInt.mat
+         slope = training_slope.mat
 
 The following must be added to your MATLAB path for this code to work:
 
