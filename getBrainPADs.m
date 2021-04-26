@@ -2,7 +2,7 @@ function [brainPAD, subid, prediction] = getBrainPADs(niftiFolder, saveto,...
     betas, test_outcome, test_subid, training_data, int, slope)
 % This function takes fully preprocessed T1 images, resizes the images to 
 % 2mm^3 voxels, extracts voxelwise data, and applies parameters from a
-% machine learning model to creatae a brainPAD score for each T1 scan.
+% machine learning model to create a brainPAD score for each T1 scan.
 %
 % Requires user to load following info from training set model: 1) average
 % beta weights, 2) participants' chronological age, 3) participants'
